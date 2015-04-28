@@ -1,0 +1,45 @@
+{% extends "blog/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div id="works" class="content">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                <h1>Works</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="work">
+                        <a href="#">
+                        <span>This very website!</span>
+                        <img src="{% static 'blog/img/com.jpg' %}" alt="">
+                       
+                        </a>
+                    </div>     
+                </div>
+                <div class="four columns">
+                    <div class="work">
+                        <a href="http://manticore.uni.lodz.pl/~kchrzanows">
+                        <span>Soul Asylum Records</span>
+                        <img src="{% static 'blog/img/soul.jpg' %}" alt="">
+                        
+                        </a>
+                        <p>Work In Progress!</p>
+                    </div>     
+                </div>
+                <div class="four columns">
+                    <div class="work">
+                        <a href="http://www.langbay.eu">
+                        <span>Langbay.eu</span>
+                        <img src="{% static 'blog/img/lb.jpg' %}" alt="">
+                        
+                        </a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+{% endblock %}

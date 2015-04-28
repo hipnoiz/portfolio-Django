@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="content blog post-full">
+<div class="container">
+    <div class="post">
+        <div class="row">
+            <div class="twelve columns"> <h1 class="title">{{ post.title }}</h1> </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>{{ post.text}}</p>
+            </div>
+        </div>
+<a href="{% url 'blog:blog' %}">Back</a>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+{% endblock %}

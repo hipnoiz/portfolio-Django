@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'fonts';
+@import 'base';
+@import 'grid';
+
+@import '_sections/header';
+@import '_sections/about';
+@import '_sections/works';
+@import '_sections/contact';
+@import '_sections/blog';
+@import '_sections/footer';
+
+@media only screen and (max-width: 800px) {
+  @import "_responsive/max_width_767";
+}

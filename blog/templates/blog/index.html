@@ -1,0 +1,34 @@
+{% extends "blog/base.html" %}
+{% load staticfiles %}
+{% block content %}
+    <div id="about" class="content">
+        <div class="container">
+            <h1>About</h1>
+            <div class="row">
+                <div class="six columns">
+                    <img src="{% static "blog/img/kon2.jpg" %}" alt="">
+                </div>
+
+                <div class="six columns">
+                    <p>My name is Konrad Chrzanowski, and I am a student living in Łódź, Poland looking for a Front-End Developer position. </p><p>I have experience with HTML, CSS (Bootstrap, SCSS), JavaScript (AngularJS, jQuery, Ajax), C# and SQL, as well as Django and RubyOnRails skills.</p> <p>I am also familiar with PHP, Responsive Design, Git version control, and Gulp/Grunt, and plan on learning ReactJS and other native JavaScript tools. Check out my blog!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <blockquote>“I am so clever that sometimes I don't understand a single word of what I am saying.”
+                    <span>Oscar Wilde</span>
+                    </blockquote> 
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="center">
+                        <a href="#" id="cv">my cv</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

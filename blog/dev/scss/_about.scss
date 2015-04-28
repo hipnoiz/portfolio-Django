@@ -1,0 +1,19 @@
+#about{
+	img{
+		width: 100%;
+		border-radius: 5px;
+	}
+	p{
+		margin-bottom: 15px;
+		text-align: justify;
+	}
+	#cv{
+		text-align: center;
+		display: inline-block;
+		margin: 60px 0;
+		font-size: 26px;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
